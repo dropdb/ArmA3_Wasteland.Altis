@@ -289,13 +289,13 @@ config_refuel_amounts = compileFinal str
 ];
 
 // Is player saving enabled?
-config_player_saving_enabled = compileFinal "0";
+config_player_saving_enabled = compileFinal "1";
 
 // Can players get extra in-game cash at spawn by donating?
 config_player_donations_enabled = compileFinal "0";
 
 // How much do players spawn with?
-config_initial_spawn_money = compileFinal "100";
+config_initial_spawn_money = compileFinal "1000";
 
 // Territory system definitions. See territory/README.md for more details.
 //
@@ -306,6 +306,6 @@ config_initial_spawn_money = compileFinal "100";
 // 4 - Territory category, currently unused. See territory/README.md for details.
 config_territory_markers = compileFinal str
 [
-	//["TERRITORY_AIRPORT_TEST", "Main Airport", 500, "AIRFIELD"] // Also add to the map to test
+	["TERRITORY_AIRPORT_TEST", "Main Airport", 500, "AIRFIELD"] // Also add to the map to test
 ];
 
